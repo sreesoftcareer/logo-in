@@ -1,0 +1,88 @@
+:root{
+    --primary-color : black;
+    --secondary-colur :white ;
+}
+dark-theme{
+    
+        --primary-color : white;
+        --secondary-colur : black;
+    
+    
+    
+}
+
+
+ .background{
+    background :var(--primary-color);
+    
+    height: 700px;
+    background-attachment: fixed;
+}
+.background i{
+    width: 50px;
+    height: 50px;
+    color: azure;
+}
+nav{
+    width: 88%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ h1{
+    color: var(--secondary-colur);
+    font-size: 50px;
+
+}
+
+nav ul{
+
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+display: inline;
+list-style: none;
+margin: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--secondary-colur);
+
+}
+#icon{
+    cursor: pointer;
+}
+.wrapper {
+    
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    
+    border: 2px solid redw;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px red;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 8px;
+    margin: 0 10px 0 240px;
+}
+
+.form-check-label{
+    color: red;
+}
+.wrapper.login{width: 100%;
+
+}
+.login{
+padding-top: 40px;
+}
+.btn{
+    width: 80%;
+}
+.login-register p{
+    color: red;
+}
